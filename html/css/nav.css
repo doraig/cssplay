@@ -1,0 +1,27 @@
+/* Site navigations*/
+.site-nav {
+  margin-top: 20px;
+}
+.site-nav li {
+  list-style: none;
+  float: left;
+  margin-right: 5px;
+}
+
+.site-nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+.site-nav a {
+  display: block;
+  color: #606d3b;
+  text-decoration: none;
+  padding: 10px 10px;
+  border: 3px solid #ecf2dc;
+  border-bottom: none;
+}
+
+.site-nav a:hover{
+  background-color: #ecf2dc;
+}
