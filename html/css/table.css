@@ -1,0 +1,35 @@
+
+table {
+  border-spacing: 0;
+  border-collapse: collapse;
+  width: 100%
+}
+table th {
+  text-align: left;
+  background-color: #a6af90;
+  color: #FFF;
+  text-shadow: 1px 1px 0 rgba(0,0,0,.45);
+}
+table th,
+table td {
+  border: 1px solid #a6af90;
+  padding: 10px;
+  vertical-align:  top;
+}
+
+table tbody tr:nth-child(odd) td {
+   background-color: #e6f2cb;
+}
+
+.col-item-name {
+  width: 60%;
+}
+.col-item-qty,
+.col-item-price {
+  width: 20%;
+}
+
+table.g-list tr :nth-child(2),
+table.g-list tr :nth-child(3) {
+  text-align: center;
+}
